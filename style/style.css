@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border:50px solid maroon;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/images.jpg');
+    font-family:  "Montserrat", sans-serif;
+  }
+
+
+
+.text{
+    font-size: 6rem;
+    text-align: center;
+    color: #691606;
+
+}
+.title{
+    text-align: center;
+    color: #f74a27;
+    font-size: 40px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.number{
+    font-size: 12rem;
+    
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 13px;
+    margin: 0px auto ;
+    align-self: center;
+    color: maroon;
+    
+
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 1.5rem 4.5rem;
+    background: #8d5f35;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: normal;
+    border: 0;
+    border-radius: 0.4rem;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    cursor: pointer;
+    -webkit-transition: background 250ms, box-shadow 250ms;
+    transition: background 250ms, box-shadow 250ms;
+  }
+  .btn:hover {
+    background: #FDD835;
+    color:rgba(0, 0, 0);
+    font-weight: 300;
+    box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.6);
+  }
+  .btn:active, .btn:focus {
+    outline: none;
+  }
+  .btn:active {
+    box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.8);
+  }
+  
+  .btn .text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+ .reset{
+     position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+    padding: 0.5rem 2.5rem;
+    background: #702413;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: normal;
+    border: 0;
+    border-radius: 0.4rem;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    cursor: pointer;
+    -webkit-transition: background 250ms, box-shadow 250ms;
+    transition: background 250ms, box-shadow 250ms;
+ }
+  
+ .reset:hover {
+    background: #8f3838;
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.6);
+  }
+  .reset:active, .reset:focus {
+    outline: none;
+  }
+  .reset:active {
+    box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.8);
+  }
+  
+  .reset .text {
+    position: relative;
+    z-index: 2;
+  }
